@@ -8,3 +8,5 @@ This is a simple app that enables the user to input a server address for any Min
 - The version of Minecraft the server is running
 
 This app pulls the data using this <a href="https://api.mcsrvstat.us/">this API</a>.
+
+View a live demo <a href="https://devlarabar.github.io/minecraft-server-status-viewer/">here</a>!
