@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minecraft Server Status</title>
+        <link rel="icon" href="https://lh3.googleusercontent.com/R74PW5uRF3klb1oz6OSsjEO-Wbhc_tISRrdjRrVtLWRbdMfOr8gd-nHBLF-4c4HifLNWl6gz2N8zk4jtb0KO=s400">
+        <!-- external stylesheets & fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Calistoga&family=Chewy&family=Lato:wght@100;300;400;700&family=Major+Mono+Display&family=Passion+One&family=Rajdhani&family=Roboto+Condensed:wght@300&family=Roboto+Serif:ital@0;1&family=Roboto:wght@300&family=Ubuntu+Mono&family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css"> <!-- normalize stylesheet -->
+        <link rel="stylesheet" href="css/style.css"> <!-- main stylesheet-->
+    </head>
+    <body>
+        <main>
+            <section class="serverStatus">
+                <h1>Minecraft Server Status</h1>
+                <p>Input the server domain (or address) for any <em>Java Edition</em> Minecraft server to display its current status.</p>
+                <div class="search">
+                    <label for="serverDomain">Enter Server Domain:</label>
+                    <input type="text" id="serverDomain" placeholder="123.456.78.910:12345" name="Server Domain Input">
+                    <button id="submit" name="Submit">Check</button>
+                </div>
+                <h2 id="serverStatusHeader">Server Status <span></span></h2>
+                <div id="serverStatus">
+                    <ul>
+                        <li><span>Online:</span> <span id="online" class="info"></span></li>
+                        <li><span>Players Online:</span> <span id="playersOnline" class="info"></span></li>
+                        <li><span>Version:</span> <span id="version" class="info"></span></li>
+                        <li><span>Max Players:</span> <span id="playersMax" class="info"></span></li>
+                        <li><span>Plugins:</span> <span id="plugins" class="info"></span></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <aside class="credit"><a href="https://wall.alphacoders.com/big.php?i=1184187">Background Source</a></aside>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
